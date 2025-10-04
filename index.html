@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Weather forecast-1</title>
+   <link id="favicon" rel="icon" type="image/png" href="img/11.gif">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/master.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="title"><h1> پیش‌بینی وضعیت هوا</h1></div>
+      <div class="searchbox">
+        <input type="text" class="inp" placeholder="نام شهر را وارد کنید...">
+        <button class="btn">جستجو</button>
+      </div>
+      <div class="current">
+        <div>
+          <img class="weather_img" src="" alt="">
+          <h2 class="city">--</h2>
+        </div>
+        <div>
+          <div class="temp">--°C</div>
+          <div class="mini">💧 <span class="humidity">--%</span> | 💨 <span class="wind">-- km/h</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h2 style="text-align:center; margin-bottom:15px; color:#00e5ff;">📅 پیش‌بینی روزهای آینده</h2>
+      <div class="forecast weatherInfo"></div>
+    </div>
+  </div>
+  <audio autoplay src="" id="audioPlay"></audio>
+  <!-- ///////////footer/////////////////////// -->
+  <div class="hossein">
+    <figure>
+      <img src="img/khodaam.png" alt="">
+      <figcaption>hossein saedmohkam</figcaption>
+    </figure>
+  </div>
+
+</body>
+<script src="style/app.js"></script>
+</html>
